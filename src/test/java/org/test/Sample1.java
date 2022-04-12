@@ -31,7 +31,10 @@ public class Sample1 {
 	private void afterclass() {
 		System.out.println("afterclass");
 	}
-	
+	@Test(priority=-1,invocationCount=3)
+	private void tc03() {
+		System.out.println("test 3");
+	}
 	
 	
 	
