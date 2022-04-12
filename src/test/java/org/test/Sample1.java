@@ -32,8 +32,15 @@ public class Sample1 {
 		System.out.println("afterclass");
 	}
 	@Test(priority=-1,invocationCount=3)
+	private void tc03() {
+		System.out.println("test 3");
+	}
+//<<<<<<< HEAD
 	private void tc04() {
 		System.out.println("test 4");
+//=======
+	
+//>>>>>> 93d87df0337b53be012523064c943e10e16f0d96
 	}
 	
 	
